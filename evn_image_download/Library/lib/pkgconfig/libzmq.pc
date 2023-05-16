@@ -1,0 +1,12 @@
+prefix=d:/Python/Projects/Image_download/evn_image_download/Library
+exec_prefix=d:/Python/Projects/Image_download/evn_image_download/Library
+libdir=d:/Python/Projects/Image_download/evn_image_download/Library/lib
+includedir=d:/Python/Projects/Image_download/evn_image_download/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
